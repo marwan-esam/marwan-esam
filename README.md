@@ -1,5 +1,4 @@
 - 👋 Hi, I’m @marwan-esam
-- 👀 I’m interested in learning how to create well-built projects
 - 🌱 I’m currently focusing on programming competitions 
 - 💞️ I’m looking to collaborate on building many projects
 - 📫 You can contact me through my email: marwanesam60@gmail.com
