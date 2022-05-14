@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @marwan-esam
-- 🌱 I’m currently focusing on programming competitions 
+- 🌱 I’m currently focusing on competitive programming
 - 💞️ I’m looking to collaborate on building many projects
 - 📫 You can contact me through my email: marwanesam60@gmail.com
 
