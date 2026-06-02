@@ -31,6 +31,6 @@ A secure, ACID-compliant financial backend microservice designed to handle concu
 ---
 
 ## 📫 Let's Connect
-If you want to discuss backend architecture, algorithmic optimization, or Linux system configurations, feel free to reach out.
+If you want to discuss backend architecture, or algorithmic optimization, feel free to reach out.
 
 * **Email:** marwanesam60@gmail.com
