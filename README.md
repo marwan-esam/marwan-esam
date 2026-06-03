@@ -4,9 +4,9 @@
 I specialize in bridging the gap between theoretical algorithmic complexity and highly scalable, database-driven backend architecture. 
 
 ## ⚡ Current Status
-* **Engineering:** Robust, ACID-compliant backend microservices with strict concurrency controls.
+* **Engineering:** Robust, ACID-compliant backend microservices with strict concurrency controls and automated container orchestration.
 * **Instructing:** Core computer science fundamentals, focusing on advanced data structures, execution-time optimization, and logical analysis.
-* **Operating:** Native development within strictly controlled, bare-metal Linux environments.
+* **Operating:** Native development within strictly controlled, bare-metal Linux environments, scaling to isolated, reproducible containerized deployments.
 
 ## 🛠️ Technical Arsenal
 
@@ -17,20 +17,20 @@ I specialize in bridging the gap between theoretical algorithmic complexity and 
 `C++` `Object-Oriented Programming` `Algorithm Design & Analysis` `Concurrency` 
 
 **Infrastructure & Quality Assurance**
-`Git` `Pytest` `Linux (Arch)` `HTTPX`
+`Docker` `Docker Compose` `Git` `Pytest` `Linux (Arch)` `HTTPX`
 
 ---
 
 ## 🔭 Current Architecture Focus
 
 ### [Financial Ledger API](https://github.com/marwan-esam/financial-ledger)
-A secure, ACID-compliant financial backend microservice designed to handle concurrent transactions and stateful data persistence. 
-* **Core Features:** Strict PostgreSQL row-level locking to prevent race conditions, stateless OAuth2 authentication, and custom dependency injection to mitigate IDOR vulnerabilities.
-* **Stack:** Python, FastAPI, PostgreSQL, SQLAlchemy.
+A containerized, ACID-compliant financial backend microservice designed to handle concurrent transactions and stateful data persistence. 
+* **Core Features:** Automated container orchestration via Docker Compose, isolated internal networking with persistent volumes, database healthcheck boot sequences, strict PostgreSQL row-level locking to prevent race conditions, and custom dependency injection to mitigate IDOR vulnerabilities.
+* **Stack:** Python, FastAPI, PostgreSQL, SQLAlchemy, Docker.
 
 ---
 
 ## 📫 Let's Connect
-If you want to discuss backend architecture, or algorithmic optimization, feel free to reach out.
+If you want to discuss backend architecture, infrastructure orchestration, or algorithmic optimization, feel free to reach out.
 
 * **Email:** marwanesam60@gmail.com
