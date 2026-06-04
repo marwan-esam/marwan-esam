@@ -17,7 +17,7 @@ I specialize in bridging the gap between theoretical algorithmic complexity and 
 `C++` `Object-Oriented Programming` `Algorithm Design & Analysis` `Concurrency` 
 
 **Infrastructure & Quality Assurance**
-`Docker` `Docker Compose` `Git` `Pytest` `Linux (Arch)` `HTTPX`
+`Docker` `Docker Compose` `Alembic` `Git` `Pytest` `Linux (Arch)` `HTTPX`
 
 ---
 
@@ -25,8 +25,8 @@ I specialize in bridging the gap between theoretical algorithmic complexity and 
 
 ### [Financial Ledger API](https://github.com/marwan-esam/financial-ledger)
 A containerized, ACID-compliant financial backend microservice designed to handle concurrent transactions and stateful data persistence. 
-* **Core Features:** Automated container orchestration via Docker Compose, isolated internal networking with persistent volumes, database healthcheck boot sequences, strict PostgreSQL row-level locking to prevent race conditions, and custom dependency injection to mitigate IDOR vulnerabilities.
-* **Stack:** Python, FastAPI, PostgreSQL, SQLAlchemy, Docker.
+* **Core Features:** Automated container orchestration via Docker Compose, programmatic schema migrations via Alembic, strict PostgreSQL row-level locking and `CheckConstraints` for defense-in-depth data integrity, stateless OAuth2/JWT authentication, IDOR mitigation, and an automated Pytest QA pipeline.
+* **Stack:** Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker, Pytest.
 
 ---
 
