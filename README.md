@@ -31,11 +31,12 @@
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
   <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy"/>
+  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" alt="RabbitMQ"/>
+  <img src="https://img.shields.io/badge/MinIO-C7202C?style=flat-square&logo=minio&logoColor=white" alt="MinIO"/>
   <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSockets"/>
   <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
   <img src="https://img.shields.io/badge/RESTful_APIs-005C84?style=flat-square&logo=openapiinitiative&logoColor=white" alt="REST"/>
 </p>
-
 
 ### Infrastructure & Tools
 <p>
@@ -44,6 +45,7 @@
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
   <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu"/>
   <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=archlinux&logoColor=white" alt="Arch Linux"/>
+  <img src="https://img.shields.io/badge/Caddy-00ADD8?style=flat-square&logo=caddy&logoColor=white" alt="Caddy"/>
   <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx"/>
   <img src="https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat-square&logo=oracle&logoColor=white" alt="Oracle Cloud"/>
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
@@ -54,6 +56,16 @@
 ---
 
 ## Featured Projects
+
+<details open>
+<summary><b>HLS Media Transcoding Pipeline</b></summary>
+<br/>
+An asynchronous, highly scalable video processing architecture that converts raw video uploads into Adaptive Bitrate HLS streams (1080p, 720p, 480p).
+
+- **Core Features:** Background task processing via RabbitMQ and Dead Letter Exchanges, real-time WebSocket progress updates authenticated via short-lived Redis tickets, multi-resolution video transcoding using FFmpeg, and S3-compatible asset management using MinIO. The system is fully containerized and securely routed through a Caddy reverse proxy with automated TLS.
+- **Stack:** Python, FastAPI, RabbitMQ, MinIO, Redis, PostgreSQL, WebSockets, Docker Compose, Caddy.
+- **Link:** [View Project Repository](https://github.com/marwan-esam/media-transcoding-pipeline)
+</details>
 
 <details open>
 <summary><b>Real-Time CRDT Document API</b></summary>
@@ -73,16 +85,6 @@ An asynchronous matchmaking backend designed to pair users based on Elo ratings 
 - **Core Features:** Asynchronous Redis worker queues for matchmaking and automated Elo settlement, real-time game state management via WebSockets, stateless JWT authentication, and automated CI/CD testing. Deployed securely on an Oracle Cloud (OCI) Linux instance with an Nginx reverse proxy and Let's Encrypt SSL.
 - **Stack:** Python, FastAPI, WebSockets, Redis, PostgreSQL, SQLAlchemy, Docker, Nginx, Pytest.
 - **Link:** [View Project Repository](https://github.com/marwan-esam/fastapi-matchmaking-engine)
-</details>
-
-<details open>
-<summary><b>Real-Time Distributed Chat Engine</b></summary>
-<br/>
-A production-grade, asynchronous chat application utilizing a message broker pattern to allow for horizontal scaling of WebSocket connections across isolated worker processes.
-
-- **Core Features:** Raw TCP WebSocket connections for real-time communication, Redis Pub/Sub for cross-worker state synchronization, stateful token revocation (Redis Blacklist), multi-container Docker bridge networking, and an automated cloud CI/CD testing pipeline.
-- **Stack:** Python, FastAPI, WebSockets, Redis, PostgreSQL, SQLAlchemy, Docker, GitHub Actions, Pytest.
-- **Link:** [View Project Repository](https://github.com/marwan-esam/real-time-chat)
 </details>
 
 ---
