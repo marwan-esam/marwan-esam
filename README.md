@@ -1,107 +1,136 @@
-<h1 align="center">Hi there, I'm Marwan</h1>
-<h3 align="center">Backend Software Engineer & Computer Science Teaching Assistant</h3>
+<!-- Animated Waving Header -->
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:512BD4,100:2496ED&height=200&section=header&text=Marwan%20Esam&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Backend%20Software%20Engineer%20-%20CS%20Teaching%20Assistant&descAlignY=58&descSize=18" alt="Marwan Esam" />
+
+  <!-- Animated Typing Subtitle -->
+  <a href="https://github.com/marwan-esam">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=1200&color=6366F1&center=true&vCenter=true&width=750&height=45&lines=Building+Reliable,+Database-Driven+Backend+Systems;Focusing+on+C%23,+.NET,+and+Distributed+Architectures;Teaching+Core+CS+Fundamentals+%26+Data+Structures;Managing+Containerized+Linux+%26+Cloud+Infrastructure" alt="Typing SVG" />
+  </a>
+</div>
+
+---
+
+## ⚡ About Me
 
 <p align="center">
   I am a backend engineer with a strong foundation in computer science, focused on translating theoretical algorithms into reliable, database-driven applications. I enjoy building robust systems, managing cloud infrastructure, and helping students grasp core programming logic.
 </p>
+
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top">
+      <h4 align="center">🏗️ Engineering</h4>
+      <p align="center">Building ACID-compliant backend microservices, real-time distributed systems, and containerized deployments.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h4 align="center">🎓 Instructing</h4>
+      <p align="center">Guiding computer science students through core fundamentals, data structures, algorithms, and logical analysis.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h4 align="center">☁️ Operating</h4>
+      <p align="center">Developing within Linux environments and deploying scalable infrastructure via Docker and Oracle Cloud.</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🛠️ Tech Stack
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img width="1000" height="0" alt="" /><br/>
+      <h3 align="center">⚙️ Backend & Data</h3>
+      <p align="center">
+        <img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,redis,rabbitmq" alt="C#, .NET, PostgreSQL, Redis, RabbitMQ" />
+      </p>
+      <p align="center">
+        <code>C#</code> &nbsp;•&nbsp; <code>.NET</code> &nbsp;•&nbsp; <code>PostgreSQL</code> &nbsp;•&nbsp; <code>Redis</code> &nbsp;•&nbsp; <code>RabbitMQ</code> &nbsp;•&nbsp; <code>MinIO</code> &nbsp;•&nbsp; <code>WebSockets</code> &nbsp;•&nbsp; <code>REST APIs</code>
+      </p>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img width="1000" height="0" alt="" /><br/>
+      <h3 align="center">🚀 Infrastructure & Tools</h3>
+      <p align="center">
+        <img src="https://skillicons.dev/icons?i=docker,linux,arch,ubuntu,nginx,git,githubactions" alt="Docker, Linux, Arch Linux, Ubuntu, Nginx, Git, GitHub Actions" />
+      </p>
+      <p align="center">
+        <code>Docker</code> &nbsp;•&nbsp; <code>Linux (Arch / Ubuntu)</code> &nbsp;•&nbsp; <code>Caddy</code> &nbsp;•&nbsp; <code>Nginx</code> &nbsp;•&nbsp; <code>Oracle Cloud</code> &nbsp;•&nbsp; <code>GitHub Actions</code> &nbsp;•&nbsp; <code>Git</code>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🚀 Featured Projects
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img width="1000" height="0" alt="" /><br/>
+      <h3 align="center">🎬 HLS Media Transcoding Pipeline</h3>
+      <p align="center">
+        <code>RabbitMQ</code> | <code>MinIO</code> | <code>Redis</code> | <code>PostgreSQL</code> | <code>WebSockets</code> | <code>Docker</code> | <code>Caddy</code>
+      </p>
+      <p align="center">
+        An asynchronous, scalable video processing architecture that converts raw video uploads into multi-resolution Adaptive Bitrate HLS streams with Dead Letter Exchanges, real-time WebSocket progress tracking, and S3-compatible asset storage.
+      </p>
+      <p align="center">
+        <a href="https://github.com/marwan-esam/media-transcoding-pipeline">
+          <img src="https://img.shields.io/badge/View_Project-512BD4?style=for-the-badge&logo=github&logoColor=white" alt="View Project" />
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img width="1000" height="0" alt="" /><br/>
+      <h3 align="center">📝 Real-Time CRDT Document API</h3>
+      <p align="center">
+        <code>WebSockets</code> | <code>PostgreSQL</code> | <code>Redis</code> | <code>Docker Compose</code> | <code>Oracle Cloud</code>
+      </p>
+      <p align="center">
+        A high-performance collaborative document editor backend utilizing fractional indexing Conflict-free Replicated Data Types (CRDTs), Redis distributed locks, and strict WebSocket handshake protocols to guarantee deterministic state across clients.
+      </p>
+      <p align="center">
+        <a href="https://github.com/marwan-esam/crdt-collaborative-document-editor">
+          <img src="https://img.shields.io/badge/View_Project-512BD4?style=for-the-badge&logo=github&logoColor=white" alt="View Project" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📊 GitHub Analytics & Activity
+
+<div align="center">
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=marwan-esam&theme=transparent&hide_border=true&title_color=6366F1&text_color=64748B&icon_color=6366F1&ring=6366F1&fire=6366F1&currStreakLabel=6366F1&sideLabels=64748B&dates=94A3B8&stroke=E2E8F0" alt="GitHub Streak" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=marwan-esam&theme=transparent" alt="GitHub Stats" />
+</div>
+
+<div align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=marwan-esam&bg_color=00000000&color=64748B&line=6366F1&point=3B82F6&area=true&area_color=6366F1&hide_border=true" alt="Contribution Activity Graph" />
+</div>
+
+---
+
+## 🤝 Connect with Me
 
 <p align="center">
   <a href="mailto:marwanesam60@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://github.com/marwan-esam">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="https://www.linkedin.com/in/marwan-mohamed-esam/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
 
----
-
-## About Me
-
-- **Engineering:** Building ACID-compliant backend microservices, real-time distributed systems, and containerized deployments.
-- **Instructing:** Guiding students through core computer science fundamentals, data structures, and logical analysis.
-- **Operating:** Developing within Linux environments and deploying scalable infrastructure via Docker and Oracle Cloud.
-
-## Tech Stack
-
-### Backend
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
-  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy"/>
-  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" alt="RabbitMQ"/>
-  <img src="https://img.shields.io/badge/MinIO-C7202C?style=flat-square&logo=minio&logoColor=white" alt="MinIO"/>
-  <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSockets"/>
-  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
-  <img src="https://img.shields.io/badge/RESTful_APIs-005C84?style=flat-square&logo=openapiinitiative&logoColor=white" alt="REST"/>
-</p>
-
-### Infrastructure & Tools
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker Compose"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu"/>
-  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=archlinux&logoColor=white" alt="Arch Linux"/>
-  <img src="https://img.shields.io/badge/Caddy-00ADD8?style=flat-square&logo=caddy&logoColor=white" alt="Caddy"/>
-  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx"/>
-  <img src="https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat-square&logo=oracle&logoColor=white" alt="Oracle Cloud"/>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="Pytest"/>
-</p>
-
----
-
-## Featured Projects
-
-<details open>
-<summary><b>HLS Media Transcoding Pipeline</b></summary>
-<br/>
-An asynchronous, highly scalable video processing architecture that converts raw video uploads into Adaptive Bitrate HLS streams (1080p, 720p, 480p).
-
-- **Core Features:** Background task processing via RabbitMQ and Dead Letter Exchanges, real-time WebSocket progress updates authenticated via short-lived Redis tickets, multi-resolution video transcoding using FFmpeg, and S3-compatible asset management using MinIO. The system is fully containerized and securely routed through a Caddy reverse proxy with automated TLS.
-- **Stack:** Python, FastAPI, RabbitMQ, MinIO, Redis, PostgreSQL, WebSockets, Docker Compose, Caddy.
-- **Link:** [View Project Repository](https://github.com/marwan-esam/media-transcoding-pipeline)
-</details>
-
-<details open>
-<summary><b>Real-Time CRDT Document API</b></summary>
-<br/>
-A high-performance, real-time collaborative document editor backend utilizing fractional indexing Conflict-free Replicated Data Types (CRDTs) to ensure deterministic state across distributed clients.
-
-- **Core Features:** Base-100 fractional indexing operations for character-level transformations, strict 3-second Reaper Handshake authentication protocols via WebSockets, Redis distributed locks for cache state synchronization, and a fully containerized architecture deployed on a secure Oracle Cloud instance.
-- **Stack:** Python, FastAPI, WebSockets, PostgreSQL, Redis, Docker Compose, Pytest, Uvicorn/Gunicorn.
-- **Link:** [View Project Repository](https://github.com/marwan-esam/crdt-collaborative-document-editor)
-</details>
-
-<details open>
-<summary><b>FastAPI Matchmaking Engine</b></summary>
-<br/>
-An asynchronous matchmaking backend designed to pair users based on Elo ratings and manage real-time game states.
-
-- **Core Features:** Asynchronous Redis worker queues for matchmaking and automated Elo settlement, real-time game state management via WebSockets, stateless JWT authentication, and automated CI/CD testing. Deployed securely on an Oracle Cloud (OCI) Linux instance with an Nginx reverse proxy and Let's Encrypt SSL.
-- **Stack:** Python, FastAPI, WebSockets, Redis, PostgreSQL, SQLAlchemy, Docker, Nginx, Pytest.
-- **Link:** [View Project Repository](https://github.com/marwan-esam/fastapi-matchmaking-engine)
-</details>
-
----
-
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=marwan-esam&theme=transparent&hide_border=true&title_color=2496ED" alt="GitHub Streak" />
-  <br/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=marwan-esam&theme=transparent" alt="Top Languages" />
-</p>
-
----
-
-<p align="center">
-  <i>Always looking to learn, build, and tackle new challenges in backend development and infrastructure. Let's connect!</i>
-</p>
+<!-- Animated Waving Footer (No Text) -->
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:512BD4,100:2496ED&height=110&section=footer" alt="Footer Banner" />
+</div>
