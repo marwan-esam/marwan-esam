@@ -46,7 +46,7 @@
         <img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,redis,rabbitmq" alt="C#, .NET, PostgreSQL, Redis, RabbitMQ" />
       </p>
       <p align="center">
-        <code>C#</code> &nbsp;•&nbsp; <code>.NET</code> &nbsp;•&nbsp; <code>PostgreSQL</code> &nbsp;•&nbsp; <code>Redis</code> &nbsp;•&nbsp; <code>RabbitMQ</code> &nbsp;•&nbsp; <code>MinIO</code> &nbsp;•&nbsp; <code>WebSockets</code> &nbsp;•&nbsp; <code>REST APIs</code>
+        <code>C#</code> &nbsp;•&nbsp; <code>.NET</code> &nbsp;•&nbsp; <code>SQL Server</code> &nbsp;•&nbsp; <code>PostgreSQL</code> &nbsp;•&nbsp; <code>Redis</code> &nbsp;•&nbsp; <code>RabbitMQ</code> &nbsp;•&nbsp; <code>MinIO</code> &nbsp;•&nbsp; <code>WebSockets</code> &nbsp;•&nbsp; <code>REST APIs</code>
       </p>
     </td>
     <td width="50%" valign="top" align="center">
